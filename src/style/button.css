@@ -1,0 +1,51 @@
+.reset__btn{
+    background-color: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    padding: 4px;
+    color: #ACADB9;    
+}
+.submit__btn{
+    width: 275px;
+    height: 40px;
+    background-color: #5E96FC;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;   
+    text-align: center;
+    color: #FFFFFF;
+}
+.search__btn{         
+    padding: 4px 20px;
+    gap: 10px;
+    border: none;
+    width: 83px;
+    height: 32px;
+    background: #5E96FC;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF; 
+    margin-left: 350px;      
+}
+.save__btn{
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+}
+.active svg{
+    background-color: #5E96FC;
+}

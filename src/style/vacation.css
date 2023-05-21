@@ -1,0 +1,45 @@
+.wrapper{
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 24px;
+gap: 90px;
+width: 773px;
+height: 137px;
+background: #FFFFFF;
+border: 1px solid #EAEBED;
+border-radius: 12px;
+margin-bottom: 16px;
+}
+.card{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0;
+gap: 12px;
+
+width: 339px;
+height: 89px;
+}
+.profesion{
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;    
+color: #5E96FC;
+}
+.payment{
+font-weight: 600;
+margin-right: 33px;
+}
+.worktitle{
+font-family: inherit;
+}
+.town{
+    line-height: 19px;
+    margin-left: 8px;
+}
+.paragraf{
+display: flex;
+}

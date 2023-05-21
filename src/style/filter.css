@@ -1,0 +1,35 @@
+.forma__conteiner{
+    width: 315px;
+    height: 360px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.forma fieldset{
+    border: none;
+    margin-bottom: 20px;
+}
+.legend{
+    float: left;
+    margin-right: 67px;
+    font-weight: 700;
+    font-size: 20px; 
+    margin-bottom: 32px;   
+}
+
+.label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232134;
+    margin-bottom: 8px;
+}
+select,.filter__input{
+    width: 275px;
+    height: 27px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #D5D6DC;
+    margin-bottom: 8px;
+}

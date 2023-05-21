@@ -1,0 +1,31 @@
+.search__input{
+    border: none;
+    width: 400px;
+    box-sizing: border-box;
+}
+.search__input[placeholder]{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 21px;    
+    color: #ACADB9;      
+}
+.wrapper__search{
+    display: flex;
+    flex-direction: row;    
+    box-sizing: border-box;
+    width: 773px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: 1px solid #EAEBED;
+    border-radius: 8px;
+    padding: 13px 12px 13px 12px;
+    margin-bottom: 16px;
+}
+.wrapper__search label{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    padding: auto;
+}

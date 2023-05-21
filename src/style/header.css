@@ -1,0 +1,37 @@
+.link{
+    color: #232134;
+    text-decoration:none;
+    }
+        .header{
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+        .header__conteiner{
+    display: flex;
+    gap: 280px;
+    margin-bottom: 40px;
+    }
+        .nav__list{
+    
+    display: flex;
+    gap: 60px;
+    }
+        .active{
+    font-weight: 500;
+    color: #5E96FC;
+    }
+        .logo{
+    display: flex;
+    gap: 12px;
+    }
+        .logo__img{
+    width: 30px;
+    height: 30px;  
+    }
+        .logo__link{
+    font-family: 'Poppins';  
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+  }
