@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.pagination__wrapper{
+    margin-left: 795px;    
+    margin-bottom: 44px;
+    display: flex;
+    gap: 8px;
+}
+.pagination{   
+    display: flex;    
+    align-items:center; 
+    justify-content: center;
+    padding: 0 8px;    
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;  
+    border: 1px solid #D5D6DC;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+}
+.pagination__link{       
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;    
+    color: #232134;
+    text-decoration: none;
+}

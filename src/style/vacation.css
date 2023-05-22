@@ -43,3 +43,9 @@ font-family: inherit;
 .paragraf{
 display: flex;
 }
+.icon {
+    fill: #ffffff;
+}  
+.icon .icon__clicked {
+    fill: #5e96fc;
+}

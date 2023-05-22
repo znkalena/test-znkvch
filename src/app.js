@@ -2,6 +2,9 @@ import React from "react"
 import Header from "./components/header"
 import Filter from "./components/filter"
 import Section from "./components/section"
+import Link from "./components/link"
+import Button from "./components/button"
+import Pagination from "./components/pagination"
 
 
 
@@ -25,8 +28,8 @@ class App extends React.Component{
         <main className="main">       
         <Filter content="Фильтры" />
         <Section/>
-        </main>
-        <p>{this.state.helpText ==='Help text' ? 'yes' : 'no'}</p>
+        </main>        
+        <Pagination/>      
         </div>
     )
     }

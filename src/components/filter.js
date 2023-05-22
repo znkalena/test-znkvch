@@ -31,7 +31,7 @@ render() {
 <div className="forma__conteiner">
         <form className="forma" action="" method="">
     <legend className="legend">{this.props.content}</legend>
-    <Button onClick={this.handleClearClick} className="reset__btn">
+    <Button type="button" onClick={this.handleClearClick} className="reset__btn">
             Сбросить все
     </Button>
     <img src={svg} alt="close" />
@@ -63,7 +63,7 @@ render() {
             step="100"
             />                             
     </fieldset>
-    <Button className="submit__btn" type="submit">Применить</Button>
+    <Button className="submit__btn" type="button">Применить</Button>
         </form>
                         
     </div>
